@@ -26,7 +26,7 @@ void DataRequest()
 int a;
 void setup()
 {
-  Wire.begin(8);                // join i2c bus with address #8
+  Wire.begin(8);                // join i2c bus with address 
   Wire.onRequest(requestEvent); // register event
 }
 void loop()
